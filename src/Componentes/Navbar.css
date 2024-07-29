@@ -1,0 +1,32 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #333;
+  }
+  
+  .dark-mode .navbar button {
+    background-color: #444;
+    color: #fff;
+  }
+  
